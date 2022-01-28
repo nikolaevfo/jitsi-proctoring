@@ -1,0 +1,191 @@
+Format: 1.0
+Source: jitsi-meet-web
+Binary: jitsi-meet-web jitsi-meet-web-config jitsi-meet-prosody jitsi-meet-tokens jitsi-meet-turnserver
+Architecture: all
+Version: 1.0.1-1
+Checksums-Md5:
+ 5844ab4205b24959d0af2a9acc010efc 59892 jitsi-meet-prosody_1.0.1-1_all.deb
+ 12fc05b822103775dfffe06b4ff465bf 4292 jitsi-meet-tokens_1.0.1-1_all.deb
+ 656d1ffac51f146f0802bff069774044 6208 jitsi-meet-turnserver_1.0.1-1_all.deb
+ 36cce92352232e129c05fbed309f60cf 22980 jitsi-meet-web-config_1.0.1-1_all.deb
+ 3793eb0415d8c904b6087faceb307dd7 8780672 jitsi-meet-web_1.0.1-1_all.deb
+Checksums-Sha1:
+ d7f1c75ae6d3a55300150e7330eebaf1f528faf2 59892 jitsi-meet-prosody_1.0.1-1_all.deb
+ df511739455a0b51fed1c1a2454f632de9d494a3 4292 jitsi-meet-tokens_1.0.1-1_all.deb
+ abe15452053827ccaf7fbd00335b68f23a08e823 6208 jitsi-meet-turnserver_1.0.1-1_all.deb
+ 050c9e86811899c661fad94296cdbec89a709726 22980 jitsi-meet-web-config_1.0.1-1_all.deb
+ 1fb5d648c85b18d991db5681107f6311a0b48760 8780672 jitsi-meet-web_1.0.1-1_all.deb
+Checksums-Sha256:
+ 599bb43f8f9c5a06b74f94b234505fb765af0ad024ec2491fcf3a86ed867f434 59892 jitsi-meet-prosody_1.0.1-1_all.deb
+ 1f4120293eb0ed0d3cbe85d236be741b024dfdfffb8a682629ff2d8f7e0cfadb 4292 jitsi-meet-tokens_1.0.1-1_all.deb
+ c189df9d479f3be04c4bf87c5b02036b5902d6b64c1ebb233bbe4343be8c3459 6208 jitsi-meet-turnserver_1.0.1-1_all.deb
+ e1da870ccb0505d7659f07c8f5aa9cd089d61cd04665d7d90a9daf144a26658f 22980 jitsi-meet-web-config_1.0.1-1_all.deb
+ 1496b638269ce4b8995c72fd54d9164e38f3c90b14159e9189fe0d21b10e85cb 8780672 jitsi-meet-web_1.0.1-1_all.deb
+Build-Origin: Ubuntu
+Build-Architecture: amd64
+Build-Date: Fri, 28 Jan 2022 11:56:36 +0400
+Build-Tainted-By:
+ merged-usr-via-symlinks
+ usr-local-has-libraries
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.1-4ubuntu6),
+ autopoint (= 0.19.8.1-10build1),
+ autotools-dev (= 20180224.1),
+ base-files (= 11ubuntu5.4),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-6ubuntu1.1),
+ binutils (= 2.34-6ubuntu1.3),
+ binutils-common (= 2.34-6ubuntu1.3),
+ binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.3),
+ bsdmainutils (= 11.1.2ubuntu3),
+ bsdutils (= 1:2.34-0.1ubuntu9.1),
+ build-essential (= 12.8ubuntu1.1),
+ bzip2 (= 1.0.8-2),
+ coreutils (= 8.30-3ubuntu2),
+ cpp (= 4:9.3.0-1ubuntu2),
+ cpp-9 (= 9.3.0-17ubuntu1~20.04),
+ dash (= 0.5.10.2-6),
+ debconf (= 1.5.73),
+ debhelper (= 12.10ubuntu1),
+ debianutils (= 4.9.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.7.0-1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.19.7ubuntu3),
+ dpkg-dev (= 1.19.7ubuntu3),
+ dwz (= 0.13-5),
+ file (= 1:5.38-4),
+ findutils (= 4.7.0-1ubuntu1),
+ g++ (= 4:9.3.0-1ubuntu2),
+ g++-9 (= 9.3.0-17ubuntu1~20.04),
+ gcc (= 4:9.3.0-1ubuntu2),
+ gcc-10-base (= 10.3.0-1ubuntu1~20.04),
+ gcc-9 (= 9.3.0-17ubuntu1~20.04),
+ gcc-9-base (= 9.3.0-17ubuntu1~20.04),
+ gettext (= 0.19.8.1-10build1),
+ gettext-base (= 0.19.8.1-10build1),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-4build1),
+ gzip (= 1.10-0ubuntu4),
+ hostname (= 3.23),
+ init-system-helpers (= 1.57),
+ install-info (= 6.7.0.dfsg.2-5),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-6),
+ libarchive-zip-perl (= 1.67-2),
+ libasan5 (= 9.3.0-17ubuntu1~20.04),
+ libatomic1 (= 10.3.0-1ubuntu1~20.04),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-2ubuntu6),
+ libaudit1 (= 1:2.8.5-2ubuntu6),
+ libbinutils (= 2.34-6ubuntu1.3),
+ libblkid1 (= 2.34-0.1ubuntu9.1),
+ libbsd0 (= 0.10.0-1),
+ libbz2-1.0 (= 1.0.8-2),
+ libc-ares2 (= 1.15.0-1ubuntu0.1),
+ libc-bin (= 2.31-0ubuntu9.2),
+ libc-dev-bin (= 2.31-0ubuntu9.2),
+ libc6 (= 2.31-0ubuntu9.2),
+ libc6-dev (= 2.31-0ubuntu9.2),
+ libcap-ng0 (= 0.7.9-2.1build1),
+ libcc1-0 (= 10.3.0-1ubuntu1~20.04),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.10-10ubuntu4),
+ libcrypt1 (= 1:4.4.10-10ubuntu4),
+ libctf-nobfd0 (= 2.34-6ubuntu1.3),
+ libctf0 (= 2.34-6ubuntu1.3),
+ libdb5.3 (= 5.3.28+dfsg1-0.6ubuntu2),
+ libdebconfclient0 (= 0.251ubuntu1),
+ libdebhelper-perl (= 12.10ubuntu1),
+ libdpkg-perl (= 1.19.7ubuntu3),
+ libelf1 (= 0.176-1.1build1),
+ libffi7 (= 3.3-4),
+ libfile-stripnondeterminism-perl (= 1.7.0-1),
+ libgcc-9-dev (= 9.3.0-17ubuntu1~20.04),
+ libgcc-s1 (= 10.3.0-1ubuntu1~20.04),
+ libgcrypt20 (= 1.8.5-5ubuntu1.1),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.64.6-1~ubuntu20.04.4),
+ libgmp10 (= 2:6.2.0+dfsg-4),
+ libgomp1 (= 10.3.0-1ubuntu1~20.04),
+ libgpg-error0 (= 1.37-1),
+ libicu66 (= 66.1-2ubuntu2.1),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.3.0-1ubuntu1~20.04),
+ liblsan0 (= 10.3.0-1ubuntu1~20.04),
+ liblz4-1 (= 1.9.2-2ubuntu0.20.04.1),
+ liblzma5 (= 5.2.4-1ubuntu1),
+ libmagic-mgc (= 1:5.38-4),
+ libmagic1 (= 1:5.38-4),
+ libmount1 (= 2.34-0.1ubuntu9.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libnghttp2-14 (= 1.40.0-1build1),
+ libnode64 (= 10.19.0~dfsg-3ubuntu1),
+ libpam-modules (= 1.3.1-5ubuntu4.3),
+ libpam-modules-bin (= 1.3.1-5ubuntu4.3),
+ libpam-runtime (= 1.3.1-5ubuntu4.3),
+ libpam0g (= 1.3.1-5ubuntu4.3),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-12build1),
+ libperl5.30 (= 5.30.0-9ubuntu0.2),
+ libpipeline1 (= 1.5.2-2build1),
+ libquadmath0 (= 10.3.0-1ubuntu1~20.04),
+ libseccomp2 (= 2.5.1-1ubuntu1~20.04.2),
+ libselinux1 (= 3.0-1build2),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.34-0.1ubuntu9.1),
+ libssl1.1 (= 1.1.1f-1ubuntu2.10),
+ libstdc++-9-dev (= 9.3.0-17ubuntu1~20.04),
+ libstdc++6 (= 10.3.0-1ubuntu1~20.04),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 245.4-4ubuntu3.15),
+ libtinfo6 (= 6.2-0ubuntu2),
+ libtool (= 2.4.6-14),
+ libtsan0 (= 10.3.0-1ubuntu1~20.04),
+ libubsan1 (= 10.3.0-1ubuntu1~20.04),
+ libuchardet0 (= 0.0.6-3build1),
+ libudev1 (= 245.4-4ubuntu3.15),
+ libunistring2 (= 0.9.10-2),
+ libuuid1 (= 2.34-0.1ubuntu9.1),
+ libuv1 (= 1.34.2-1ubuntu1.3),
+ libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.1),
+ libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
+ linux-libc-dev (= 5.4.0-96.109),
+ login (= 1:4.8.1-1ubuntu5.20.04.1),
+ lsb-base (= 11.1.0ubuntu2),
+ m4 (= 1.4.18-4),
+ make (= 4.2.1-1.2),
+ man-db (= 2.9.1-1),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-0ubuntu2),
+ ncurses-bin (= 6.2-0ubuntu2),
+ nodejs (= 10.19.0~dfsg-3ubuntu1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.0-9ubuntu0.2),
+ perl-base (= 5.30.0-9ubuntu0.2),
+ perl-modules-5.30 (= 5.30.0-9ubuntu0.2),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-2.1ubuntu1),
+ tar (= 1.30+dfsg-7ubuntu0.20.04.1),
+ tzdata (= 2021e-0ubuntu0.20.04),
+ util-linux (= 2.34-0.1ubuntu9.1),
+ xz-utils (= 5.2.4-1ubuntu1),
+ zlib1g (= 1:1.2.11.dfsg-2ubuntu1.2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=8"
+ LANG="en_US.UTF-8"
+ LC_ADDRESS="ru_RU.UTF-8"
+ LC_IDENTIFICATION="ru_RU.UTF-8"
+ LC_MEASUREMENT="ru_RU.UTF-8"
+ LC_MONETARY="ru_RU.UTF-8"
+ LC_NAME="ru_RU.UTF-8"
+ LC_NUMERIC="ru_RU.UTF-8"
+ LC_PAPER="ru_RU.UTF-8"
+ LC_TELEPHONE="ru_RU.UTF-8"
+ LC_TIME="ru_RU.UTF-8"
+ SOURCE_DATE_EPOCH="1413966600"
