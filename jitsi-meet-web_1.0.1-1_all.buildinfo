@@ -4,26 +4,26 @@ Binary: jitsi-meet-web jitsi-meet-web-config jitsi-meet-prosody jitsi-meet-token
 Architecture: all
 Version: 1.0.1-1
 Checksums-Md5:
- 5844ab4205b24959d0af2a9acc010efc 59892 jitsi-meet-prosody_1.0.1-1_all.deb
+ c50fd999ed1aeccdc7b9dcfda02c8b34 60004 jitsi-meet-prosody_1.0.1-1_all.deb
  12fc05b822103775dfffe06b4ff465bf 4292 jitsi-meet-tokens_1.0.1-1_all.deb
  656d1ffac51f146f0802bff069774044 6208 jitsi-meet-turnserver_1.0.1-1_all.deb
- 36cce92352232e129c05fbed309f60cf 22980 jitsi-meet-web-config_1.0.1-1_all.deb
- 3793eb0415d8c904b6087faceb307dd7 8780672 jitsi-meet-web_1.0.1-1_all.deb
+ 16337d8fc5fef6bda7fb01edeab6e022 23316 jitsi-meet-web-config_1.0.1-1_all.deb
+ 3d9503a36ffd2950e2b37676b33dd77f 8783552 jitsi-meet-web_1.0.1-1_all.deb
 Checksums-Sha1:
- d7f1c75ae6d3a55300150e7330eebaf1f528faf2 59892 jitsi-meet-prosody_1.0.1-1_all.deb
+ 77b33de66a9298ef70628ac50c3a65c5c1799002 60004 jitsi-meet-prosody_1.0.1-1_all.deb
  df511739455a0b51fed1c1a2454f632de9d494a3 4292 jitsi-meet-tokens_1.0.1-1_all.deb
  abe15452053827ccaf7fbd00335b68f23a08e823 6208 jitsi-meet-turnserver_1.0.1-1_all.deb
- 050c9e86811899c661fad94296cdbec89a709726 22980 jitsi-meet-web-config_1.0.1-1_all.deb
- 1fb5d648c85b18d991db5681107f6311a0b48760 8780672 jitsi-meet-web_1.0.1-1_all.deb
+ 48ac6cc21b0c67496b0e8856bbb4f2a3ecb045b1 23316 jitsi-meet-web-config_1.0.1-1_all.deb
+ f46f40ef8f83b7cd7d27e41b68209072683bbeec 8783552 jitsi-meet-web_1.0.1-1_all.deb
 Checksums-Sha256:
- 599bb43f8f9c5a06b74f94b234505fb765af0ad024ec2491fcf3a86ed867f434 59892 jitsi-meet-prosody_1.0.1-1_all.deb
+ d22213e81c1db49ed232a4e50c3ab938b76de837c1814200607629012f87b26b 60004 jitsi-meet-prosody_1.0.1-1_all.deb
  1f4120293eb0ed0d3cbe85d236be741b024dfdfffb8a682629ff2d8f7e0cfadb 4292 jitsi-meet-tokens_1.0.1-1_all.deb
  c189df9d479f3be04c4bf87c5b02036b5902d6b64c1ebb233bbe4343be8c3459 6208 jitsi-meet-turnserver_1.0.1-1_all.deb
- e1da870ccb0505d7659f07c8f5aa9cd089d61cd04665d7d90a9daf144a26658f 22980 jitsi-meet-web-config_1.0.1-1_all.deb
- 1496b638269ce4b8995c72fd54d9164e38f3c90b14159e9189fe0d21b10e85cb 8780672 jitsi-meet-web_1.0.1-1_all.deb
+ 13eb42792b3fba1bcf7b8eb2bd767e1ef1bcdc6083d2f7ae76fbc8d3c40767d0 23316 jitsi-meet-web-config_1.0.1-1_all.deb
+ 26622f082a604b0be9dea542608d9aa6e74c9e2672435c92f7df32c9496bab14 8783552 jitsi-meet-web_1.0.1-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 28 Jan 2022 11:56:36 +0400
+Build-Date: Fri, 04 Feb 2022 09:28:59 +0400
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-libraries
@@ -153,7 +153,7 @@ Installed-Build-Depends:
  libuv1 (= 1.34.2-1ubuntu1.3),
  libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.1),
  libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
- linux-libc-dev (= 5.4.0-96.109),
+ linux-libc-dev (= 5.4.0-97.110),
  login (= 1:4.8.1-1ubuntu5.20.04.1),
  lsb-base (= 11.1.0ubuntu2),
  m4 (= 1.4.18-4),
